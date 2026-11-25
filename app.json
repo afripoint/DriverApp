@@ -2,6 +2,7 @@
   "expo": {
     "name": "DriverApp",
     "slug": "driverapp",
+    "owner": "afripoint",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b5a8321-efc1-4743-8c5f-e28c7ef97c5f"
+      }
     }
   }
 }
